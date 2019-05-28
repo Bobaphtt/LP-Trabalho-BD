@@ -1,18 +1,20 @@
 package Entidades;
 
-
-
-
 public class Servico {
-    public Servico(int cd, String descricao, float valor){
+
+    private int cd;
+    private String descricao;
+    private float valor;
+
+    public Servico(int cd, String descricao, float valor) {
         this.cd = cd;
         this.descricao = descricao;
         this.valor = valor;
     }
     
-    private int cd;
-    private String descricao;
-    private float valor;
+    public Servico(){
+        
+    }
 
     public int getCd() {
         return cd;

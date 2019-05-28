@@ -7,6 +7,10 @@ import java.util.Date;
 
 public class Pet {
     
+    public Pet(){
+            
+    }
+    
     public Pet(int cd, String nome, String dono, String raca, Date dtNasc){
         this. cd = cd;
         this.nome = nome;

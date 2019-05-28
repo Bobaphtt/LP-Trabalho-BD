@@ -3,20 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package View;
+package View.PetMenus;
+
+import View.IMenu;
 
 /**
  *
  * @author Luan
  */
-public class PetMenu implements IMenu{
-
-    public PetMenu() {
-    }
+public class PetAlterar implements IMenu {
 
     @Override
     public void run() {
         
     }
-    
+
 }
